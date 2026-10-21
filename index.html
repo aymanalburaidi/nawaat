@@ -14,10 +14,10 @@
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const STORES=['users','listings','orders','messages','quotes','reports','drivers','notifications','activity','bids'];
 const PROTOTYPE_VERSION='07';
-const DB_NAME='NawaatDemoDB_v07'; // قاعدة جديدة: لا تُحمّل بيانات الإصدار 06 أو ما قبله
+const DB_NAME='NawaatDemoDB_v07b'; // قاعدة جديدة: لا تُحمّل بيانات الإصدار 06 أو ما قبله
 const DEFAULT_PRODUCT_IMAGE='nawaat-default-product.jpg';
 const ROLE={seller:'البائع',buyer:'المشتري',driver:'الناقل',admin:'الإدارة'};
-const CAT_BREAD='خبز ومخبوزات سادة',CAT_PRODUCE='خضار وفواكه غير صالحة للعرض',CAT_OTHER='أخرى (يراجعها فريق نواة)';
+const CAT_BREAD='خبز ومعجنات سادة',CAT_PRODUCE='خضار وفواكه غير صالحة للعرض',CAT_OTHER='أخرى (يراجعها فريق نواة)';
 const CATS=[CAT_BREAD,CAT_PRODUCE,CAT_OTHER],FEED_CATS=[CAT_BREAD,CAT_PRODUCE];
 const EMOJI={[CAT_BREAD]:'🥖',[CAT_PRODUCE]:'🥬',[CAT_OTHER]:'📦'};
 const CONDITIONS=['جاف من اليوم السابق','فائض اليوم غير مباع','ذابل أو مشوّه الشكل','مكسور أو مخدوش','قشور وبقايا نظيفة'];
