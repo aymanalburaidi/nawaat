@@ -1,4 +1,4 @@
-# Nawaat prototype (v07)
+# Nawaat prototype (0.15)
 
 Interactive demo for the Qassim University Food Loss & Waste Hackathon 2026.
 
